@@ -32,6 +32,7 @@
 # WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
+#%%
 
 from unicorn_binance_websocket_api.unicorn_binance_websocket_api_manager import BinanceWebSocketApiManager
 import logging
@@ -169,3 +170,5 @@ print("\r\n============================== Stopped multi multi socket subscribe =
 print("\r\n=============================== Stopping BinanceWebSocketManager ======================================\r\n")
 binance_websocket_api_manager.stop_manager_with_all_streams()
 print("finished!")
+
+# %%

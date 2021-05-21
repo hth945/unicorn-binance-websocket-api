@@ -32,6 +32,7 @@
 # WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
+#%%
 
 from unicorn_binance_websocket_api.unicorn_binance_websocket_api_manager import BinanceWebSocketApiManager
 import os
@@ -101,3 +102,4 @@ print("\r\n============================================ Stop miniTicker=========
 binance_websocket_api_manager.print_summary()
 
 binance_websocket_api_manager.stop_manager_with_all_streams()
+# %%
